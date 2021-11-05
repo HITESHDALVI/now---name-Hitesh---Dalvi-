@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Zen+Old+Mincho:wght@900&display=swap');
+*{
+  margin:0;
+  padding:0;
+overflow-x:hidden;
+
+}
+.App{
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: row;
+  /* flex-wrap: wrap; */
+  
+}
+.mainDiv{
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-evenly;
+  /* flex-direction: row; */
+  background-color: 	rgb(241, 241, 241);
+}
+.Container{
+  display: flex;
+  flex-wrap: wrap;
+}
+.cardContainer{
+  margin:10px;
+  width: 300px;
+  height: 400px;
+  background-color: white;
+  border: 1px gray;
+  border-radius: 7px; 
+  box-shadow: 7px 7px 5px -5px rgba(0,0,0,0.75);
+  -webkit-box-shadow: 7px 7px 5px -5px rgba(0,0,0,0.75);
+  -moz-box-shadow: 7px 7px 5px -5px rgba(0,0,0,0.75);
+}
+.personName{
+  padding: 7px;
+  margin: 5px;
+  /* padding:3px; */
+  color: solid black;
+  font-family: 'Zen Old Mincho', serif;
+}
+.personData{
+  display: flex;
+  align-items: center;
+  padding-left: 5px;
+  padding: 7px;
+}
+.dataInner{
+  padding-left: 7px;
+  padding-right: 7px;
+}
+.name{
+width: 300px;
+height: 200px;
+}
+.icons{
+  align-items: center;
+  width: 100%;
+  height: 40px;
+ z-index: -1;
+  display:flex;
+}
+.iconData{
+  align-items: center;
+  width: 33.33%; 
+}
+.iconBtn{
+  font-size: 20px;
+  height:100%;
+width: 100%;
+background: transparent;
+border: none;
+cursor: pointer;
+outline: none;
+}
+
+.cont2 {
+ color: yellow;
+}
